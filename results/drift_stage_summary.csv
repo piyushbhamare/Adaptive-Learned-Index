@@ -1,0 +1,145 @@
+Dataset,n_keys,Scenario,Stage,Latency_ns,P99_ns,Throughput_Mops,Error_mean_abs
+Books,100100,Gradual,Pre-drift,77.173,100.000,12.9579,2.8169
+Books,100100,Gradual,During-drift,119.049,200.000,8.3999,2.8119
+Books,100100,Gradual,After-repair,97.400,200.000,10.2669,2.7949
+Books,100100,Gradual,After-repair (clean),114.326,200.000,8.7469,2.8070
+Books,100100,Sudden 25pct,Pre-drift,78.372,200.000,12.7597,2.8169
+Books,100100,Sudden 25pct,During-drift,8437.500,140717.000,0.1185,2.9697
+Books,100100,Sudden 25pct,After-repair,101.963,200.000,9.8075,2.8085
+Books,100100,Sudden 25pct,After-repair (clean),82.113,200.000,12.1783,2.8056
+Books,100100,Sudden 50pct,Pre-drift,83.799,200.000,11.9333,2.8169
+Books,100100,Sudden 50pct,During-drift,20843.750,459119.000,0.0480,0.0000
+Books,100100,Sudden 50pct,After-repair,281.380,100.000,3.5539,0.0000
+Books,100100,Sudden 50pct,After-repair (clean),90.803,200.000,11.0129,2.8049
+Books,100100,Mixed,Pre-drift,80.545,200.000,12.4154,2.8169
+Books,100100,Mixed,During-drift,92.002,300.000,10.8693,2.8202
+Books,100100,Mixed,After-repair,200.221,200.000,4.9945,2.8038
+Books,100100,Mixed,After-repair (clean),92.083,200.000,10.8598,2.8049
+Facebook,100100,Gradual,Pre-drift,110.117,200.000,9.0812,2.9863
+Facebook,100100,Gradual,During-drift,217.791,200.000,4.5915,3.0022
+Facebook,100100,Gradual,After-repair,342.054,200.000,2.9235,2.9991
+Facebook,100100,Gradual,After-repair (clean),122.659,200.000,8.1527,2.9868
+Facebook,100100,Sudden 25pct,Pre-drift,110.536,200.000,9.0468,2.9863
+Facebook,100100,Sudden 25pct,During-drift,7633.125,241.000,0.1310,3.1048
+Facebook,100100,Sudden 25pct,After-repair,443.281,300.000,2.2559,3.0005
+Facebook,100100,Sudden 25pct,After-repair (clean),111.005,200.000,9.0086,2.9865
+Facebook,100100,Sudden 50pct,Pre-drift,107.116,200.000,9.3357,2.9863
+Facebook,100100,Sudden 50pct,During-drift,35334.375,778903.000,0.0283,0.0000
+Facebook,100100,Sudden 50pct,After-repair,385.372,100.000,2.5949,0.0000
+Facebook,100100,Sudden 50pct,After-repair (clean),125.421,300.000,7.9731,2.9863
+Facebook,100100,Mixed,Pre-drift,117.453,300.000,8.5140,2.9863
+Facebook,100100,Mixed,During-drift,105.036,200.000,9.5205,3.0123
+Facebook,100100,Mixed,After-repair,269.816,200.000,3.7062,2.9786
+Facebook,100100,Mixed,After-repair (clean),122.621,300.000,8.1552,2.9863
+WikiTS,100100,Gradual,Pre-drift,99.666,200.000,10.0335,2.8854
+WikiTS,100100,Gradual,During-drift,144.117,200.000,6.9388,2.9053
+WikiTS,100100,Gradual,After-repair,232.653,200.000,4.2982,2.9031
+WikiTS,100100,Gradual,After-repair (clean),115.608,300.000,8.6499,2.9113
+WikiTS,100100,Sudden 25pct,Pre-drift,99.762,200.000,10.0239,2.8854
+WikiTS,100100,Sudden 25pct,During-drift,8944.792,42750.000,0.1118,2.8312
+WikiTS,100100,Sudden 25pct,After-repair,379.719,300.000,2.6335,2.9047
+WikiTS,100100,Sudden 25pct,After-repair (clean),110.721,300.000,9.0317,2.9118
+WikiTS,100100,Sudden 50pct,Pre-drift,111.156,400.000,8.9964,2.8854
+WikiTS,100100,Sudden 50pct,During-drift,99650.000,2196080.000,0.0100,0.0000
+WikiTS,100100,Sudden 50pct,After-repair,425.637,200.000,2.3494,0.0000
+WikiTS,100100,Sudden 50pct,After-repair (clean),117.791,300.000,8.4896,2.9117
+WikiTS,100100,Mixed,Pre-drift,103.039,200.000,9.7051,2.8854
+WikiTS,100100,Mixed,During-drift,100.858,200.000,9.9149,2.8931
+WikiTS,100100,Mixed,After-repair,230.776,200.000,4.3332,2.9029
+WikiTS,100100,Mixed,After-repair (clean),124.699,300.000,8.0193,2.9117
+Books,700000,Gradual,Pre-drift,206.710,600.000,4.8377,2.7893
+Books,700000,Gradual,During-drift,528.374,600.000,1.8926,2.7784
+Books,700000,Gradual,After-repair,1443.959,600.000,0.6925,2.8002
+Books,700000,Gradual,After-repair (clean),258.860,600.000,3.8631,2.7879
+Books,700000,Sudden 25pct,Pre-drift,205.226,600.000,4.8727,2.7893
+Books,700000,Sudden 25pct,During-drift,27437.500,582.000,0.0364,2.9194
+Books,700000,Sudden 25pct,After-repair,2126.201,600.000,0.4703,2.7929
+Books,700000,Sudden 25pct,After-repair (clean),235.464,600.000,4.2469,2.7876
+Books,700000,Sudden 50pct,Pre-drift,215.058,600.000,4.6499,2.7893
+Books,700000,Sudden 50pct,During-drift,129590.625,2860388.000,0.0077,0.0000
+Books,700000,Sudden 50pct,After-repair,1872.636,100.000,0.5340,0.0000
+Books,700000,Sudden 50pct,After-repair (clean),266.699,600.000,3.7495,2.7874
+Books,700000,Mixed,Pre-drift,227.079,600.000,4.4038,2.7893
+Books,700000,Mixed,During-drift,214.918,600.000,4.6529,2.8011
+Books,700000,Mixed,After-repair,1098.644,500.000,0.9102,2.7826
+Books,700000,Mixed,After-repair (clean),251.537,600.000,3.9756,2.7874
+Facebook,700000,Gradual,Pre-drift,232.914,600.000,4.2934,3.0048
+Facebook,700000,Gradual,During-drift,382.857,600.000,2.6119,2.9889
+Facebook,700000,Gradual,After-repair,2078.310,600.000,0.4812,2.9848
+Facebook,700000,Gradual,After-repair (clean),305.959,600.000,3.2684,2.9918
+Facebook,700000,Sudden 25pct,Pre-drift,232.545,600.000,4.3002,3.0048
+Facebook,700000,Sudden 25pct,During-drift,14595.000,600.000,0.0685,2.5565
+Facebook,700000,Sudden 25pct,After-repair,2832.349,600.000,0.3531,2.9881
+Facebook,700000,Sudden 25pct,After-repair (clean),248.784,600.000,4.0196,2.9914
+Facebook,700000,Sudden 50pct,Pre-drift,234.927,600.000,4.2566,3.0048
+Facebook,700000,Sudden 50pct,During-drift,69496.875,1533311.000,0.0144,0.0000
+Facebook,700000,Sudden 50pct,After-repair,2719.795,100.000,0.3677,0.0000
+Facebook,700000,Sudden 50pct,After-repair (clean),354.492,900.000,2.8209,2.9914
+Facebook,700000,Mixed,Pre-drift,259.765,600.000,3.8496,3.0048
+Facebook,700000,Mixed,During-drift,244.706,600.000,4.0865,2.9895
+Facebook,700000,Mixed,After-repair,1459.498,600.000,0.6852,3.0100
+Facebook,700000,Mixed,After-repair (clean),303.472,600.000,3.2952,2.9914
+WikiTS,700000,Gradual,Pre-drift,213.019,600.000,4.6944,2.7250
+WikiTS,700000,Gradual,During-drift,485.543,600.000,2.0596,2.7313
+WikiTS,700000,Gradual,After-repair,1847.382,600.000,0.5413,2.7132
+WikiTS,700000,Gradual,After-repair (clean),263.245,600.000,3.7987,2.7209
+WikiTS,700000,Sudden 25pct,Pre-drift,223.862,600.000,4.4670,2.7250
+WikiTS,700000,Sudden 25pct,During-drift,43065.000,720758.000,0.0232,2.2273
+WikiTS,700000,Sudden 25pct,After-repair,2275.065,600.000,0.4395,2.7079
+WikiTS,700000,Sudden 25pct,After-repair (clean),218.664,600.000,4.5732,2.7208
+WikiTS,700000,Sudden 50pct,Pre-drift,214.010,600.000,4.6727,2.7250
+WikiTS,700000,Sudden 50pct,During-drift,105593.750,2330399.000,0.0095,0.0000
+WikiTS,700000,Sudden 50pct,After-repair,2100.340,100.000,0.4761,0.0000
+WikiTS,700000,Sudden 50pct,After-repair (clean),260.339,600.000,3.8411,2.7211
+WikiTS,700000,Mixed,Pre-drift,207.069,600.000,4.8293,2.7250
+WikiTS,700000,Mixed,During-drift,205.848,600.000,4.8580,2.7202
+WikiTS,700000,Mixed,After-repair,1200.922,500.000,0.8327,2.7056
+WikiTS,700000,Mixed,After-repair (clean),255.788,600.000,3.9095,2.7211
+Books,1001000,Gradual,Pre-drift,220.035,600.000,4.5447,2.7928
+Books,1001000,Gradual,During-drift,997.273,600.000,1.0027,2.7978
+Books,1001000,Gradual,After-repair,1071.718,600.000,0.9331,2.7969
+Books,1001000,Gradual,After-repair (clean),293.325,600.000,3.4092,2.8068
+Books,1001000,Sudden 25pct,Pre-drift,229.020,600.000,4.3664,2.7928
+Books,1001000,Sudden 25pct,During-drift,59405.357,956.000,0.0168,2.9765
+Books,1001000,Sudden 25pct,After-repair,2895.624,600.000,0.3453,2.7994
+Books,1001000,Sudden 25pct,After-repair (clean),313.544,600.000,3.1893,2.8068
+Books,1001000,Sudden 50pct,Pre-drift,227.255,600.000,4.4003,2.7928
+Books,1001000,Sudden 50pct,During-drift,203396.875,4489823.000,0.0049,0.0000
+Books,1001000,Sudden 50pct,After-repair,2613.881,100.000,0.3826,0.0000
+Books,1001000,Sudden 50pct,After-repair (clean),338.542,800.000,2.9538,2.8068
+Books,1001000,Mixed,Pre-drift,248.743,700.000,4.0202,2.7928
+Books,1001000,Mixed,During-drift,226.824,600.000,4.4087,2.7892
+Books,1001000,Mixed,After-repair,1678.109,500.000,0.5959,2.7839
+Books,1001000,Mixed,After-repair (clean),352.912,600.000,2.8336,2.8068
+Facebook,1001000,Gradual,Pre-drift,268.192,700.000,3.7287,2.9908
+Facebook,1001000,Gradual,During-drift,452.789,700.000,2.2085,2.9850
+Facebook,1001000,Gradual,After-repair,2043.026,700.000,0.4895,2.9956
+Facebook,1001000,Gradual,After-repair (clean),402.966,800.000,2.4816,2.9927
+Facebook,1001000,Sudden 25pct,Pre-drift,314.597,800.000,3.1787,2.9908
+Facebook,1001000,Sudden 25pct,During-drift,52761.607,689.000,0.0190,2.7765
+Facebook,1001000,Sudden 25pct,After-repair,4221.424,700.000,0.2369,2.9934
+Facebook,1001000,Sudden 25pct,After-repair (clean),271.063,700.000,3.6892,2.9926
+Facebook,1001000,Sudden 50pct,Pre-drift,264.424,700.000,3.7818,2.9908
+Facebook,1001000,Sudden 50pct,During-drift,179759.375,3968014.000,0.0056,0.0000
+Facebook,1001000,Sudden 50pct,After-repair,4047.366,100.000,0.2471,0.0000
+Facebook,1001000,Sudden 50pct,After-repair (clean),343.391,700.000,2.9121,2.9926
+Facebook,1001000,Mixed,Pre-drift,260.008,700.000,3.8460,2.9908
+Facebook,1001000,Mixed,During-drift,268.366,700.000,3.7263,3.0023
+Facebook,1001000,Mixed,After-repair,2128.907,600.000,0.4697,2.9915
+Facebook,1001000,Mixed,After-repair (clean),341.155,700.000,2.9312,2.9926
+WikiTS,1001000,Gradual,Pre-drift,235.053,600.000,4.2544,2.7602
+WikiTS,1001000,Gradual,During-drift,411.267,600.000,2.4315,2.7509
+WikiTS,1001000,Gradual,After-repair,1656.412,600.000,0.6037,2.7689
+WikiTS,1001000,Gradual,After-repair (clean),319.988,700.000,3.1251,2.7546
+WikiTS,1001000,Sudden 25pct,Pre-drift,271.886,700.000,3.6780,2.7602
+WikiTS,1001000,Sudden 25pct,During-drift,39730.682,500.000,0.0252,2.6316
+WikiTS,1001000,Sudden 25pct,After-repair,3145.463,600.000,0.3179,2.7708
+WikiTS,1001000,Sudden 25pct,After-repair (clean),238.991,600.000,4.1843,2.7546
+WikiTS,1001000,Sudden 50pct,Pre-drift,253.029,700.000,3.9521,2.7602
+WikiTS,1001000,Sudden 50pct,During-drift,205487.500,4536191.000,0.0049,0.0000
+WikiTS,1001000,Sudden 50pct,After-repair,3067.140,100.000,0.3260,0.0000
+WikiTS,1001000,Sudden 50pct,After-repair (clean),294.626,600.000,3.3941,2.7541
+WikiTS,1001000,Mixed,Pre-drift,232.048,600.000,4.3095,2.7602
+WikiTS,1001000,Mixed,During-drift,226.836,600.000,4.4085,2.7556
+WikiTS,1001000,Mixed,After-repair,1772.688,500.000,0.5641,2.7731
+WikiTS,1001000,Mixed,After-repair (clean),289.866,600.000,3.4499,2.7541
