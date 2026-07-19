@@ -1,4 +1,4 @@
-# NLI — Adaptive Learned Index Benchmark Suite
+# Adaptive Learned Index
 
 A high-performance C++17 learned index built on piecewise linear segmentation, featuring calibrated adaptive search bounds, an ensemble distribution-drift detector, and a buffered insert layer. Benchmarked against B-Tree, ALEX, PGM, and RMI on three real-world SOSD datasets at 100K and 1M key scales.
 
